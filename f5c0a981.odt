@@ -1,0 +1,108 @@
+# Direct Fusion Propulsion: Physical Principles, Reactor-Propulsion Coupling, and Fuel-Cycle Variants
+
+**Hartmut Stein**  
+Independent Researcher, Coppet, Vaud, Switzerland  
+Contact: science@hbsil.de  
+Date: April 1, 2026
+
+## Abstract
+
+Direct fusion propulsion denotes a class of spacecraft propulsion concepts in which a substantial fraction of fusion energy is transferred to thrust without first passing through a fully thermalized intermediate conversion chain.[cite:1][cite:170] In the strict form of the concept, charged fusion products are guided electromagnetically and expanded through a magnetic nozzle to produce directed momentum; in broader implementations, those products first energize a working plasma or an added propellant stream that is then exhausted magnetically.[cite:1][cite:55][cite:167]
+
+This article develops the physical basis of direct fusion propulsion and evaluates the principal fuel cycles relevant to that idea, with emphasis on p-¹¹B, D-³He, D-D, and D-T.[cite:1][cite:55][cite:151] The comparison is structured around a single criterion: the degree to which each reaction preserves the kinetic energy of fusion products in a charged form that remains useful for propulsion.[cite:1][cite:173]
+
+The analysis indicates that p-¹¹B is the most conceptually faithful expression of the direct-fusion principle because its primary products are charged alpha particles, whereas D-³He is the strongest nearer-term alternative because it still yields energetic charged products under less severe reactor conditions.[cite:1][cite:2][cite:55] D-D and especially D-T remain important comparison cases and possible developmental stepping stones, but their larger neutron fractions shift the architecture away from pure direct fusion propulsion and toward hybrid systems with heavier shielding, activation, and thermal-management penalties.[cite:151][cite:170]
+
+## 1. Introduction
+
+Fusion propulsion has long been studied as a route to exhaust velocities and mission profiles beyond the practical reach of chemical propulsion, while retaining the possibility of higher thrust than conventional electric propulsion.[cite:151][cite:167] Within that broader landscape, direct fusion propulsion is distinguished by an unusually strong architectural requirement: the fusion products themselves, rather than only reactor heat or reactor-generated electricity, must remain central to the momentum-production process.[cite:1][cite:166][cite:170]
+
+This requirement makes the concept more than a compact space reactor coupled to a downstream thruster.[cite:1][cite:173] Instead, the reactor plasma, confinement topology, exhaust channel, and magnetic nozzle must be treated as one coupled physical system in which particle energy, magnetic geometry, and propulsive efficiency are co-optimized.[cite:55][cite:166][cite:170]
+
+For that reason, questions of fuel selection are inseparable from propulsion physics.[cite:1][cite:55] A fusion fuel that is highly attractive for terrestrial energy production may still be poorly suited to direct propulsion if too much of the released energy appears in neutrons rather than in charged particles that can be magnetically directed.[cite:151][cite:170]
+
+## 2. Physical basis of direct fusion propulsion
+
+The fusion power density of a reacting plasma can be expressed as
+
+\[
+P_f = n_1 n_2 \langle \sigma v \rangle E_f V
+\]
+
+where \(n_1\) and \(n_2\) are reactant densities, \(\langle \sigma v \rangle\) is the fusion reactivity, \(E_f\) is the energy released per reaction, and \(V\) is the reacting volume.[cite:2][cite:55] For propulsion, however, total fusion power alone is insufficient as a performance criterion, because propulsion depends critically on the fraction of released energy carried by charged particles rather than neutral products.[cite:1][cite:173]
+
+In an idealized propulsion interpretation, thrust follows from directed momentum flux,
+
+\[
+F \approx \dot{m}_e v_e
+\]
+
+where \(\dot{m}_e\) is the effective exhaust mass flow and \(v_e\) is the effective exhaust velocity.[cite:166][cite:170] In a direct fusion engine, these quantities are set not only by reactor output but also by the kinematics of fusion products, the degree of magnetic collimation, the quality of nozzle expansion, and any deliberate mixing with supplemental propellant.[cite:55][cite:157][cite:167]
+
+The physical chain can therefore be stated in four linked steps:
+
+1. Fusion reactions produce energetic charged particles and, depending on fuel, neutral particles such as neutrons.[cite:1][cite:151]
+2. Magnetic fields confine the reacting plasma while permitting controlled escape or redirection of a useful fraction of charged products toward an exhaust region.[cite:55][cite:166]
+3. A magnetic nozzle transforms particle energy into directed momentum by expansion through a diverging magnetic field structure.[cite:166][cite:170]
+4. A smaller fraction of available power may be diverted to direct conversion and on-board systems, provided the architecture still preserves direct particle-driven thrust as the dominant propulsion mechanism.[cite:1][cite:173]
+
+The last point is especially important for classification. A spacecraft does not cease to be a direct fusion propulsion system merely because some electrical power is extracted for controls or auxiliary systems.[cite:1][cite:55] The defining question is instead whether the dominant thrust channel arises from the fusion products themselves, rather than from a secondary thermal or electric conversion chain.[cite:166][cite:170]
+
+## 3. Reactor and nozzle as a coupled system
+
+A direct fusion engine requires coexistence between confinement and exhaust, which is a fundamentally different condition from stationary terrestrial fusion power systems that usually regard escaping plasma as an efficiency loss.[cite:166][cite:170] In propulsion, controlled plasma escape is not merely tolerated; it is part of the functional design objective.[cite:166]
+
+This perspective explains sustained interest in field-reversed configurations. FRC-based concepts offer compact geometry, high beta, and an axial topology that can be adapted for propulsion-oriented exhaust handling, making them especially relevant in the Direct Fusion Drive literature.[cite:55][cite:167][cite:7] In that literature, rotating magnetic fields are used for sustainment and heating, while the exhaust architecture combines fusion-product energy with additional propellant before magnetic expansion.[cite:55][cite:157][cite:167]
+
+The magnetic nozzle is therefore not a peripheral subsystem but a core part of the propulsion physics.[cite:166][cite:170] NASA analyses of magnetic-nozzle operation for fusion propulsion stress the difficulty of converting high-enthalpy plasma into directed exhaust while controlling detachment, plume divergence, and parasitic heat loads on nearby structure.[cite:170] Any publishable direct fusion architecture must accordingly discuss the nozzle and confinement system together rather than as separable modules.[cite:166][cite:170]
+
+## 4. Fuel-cycle variants
+
+### 4.1 p-¹¹B
+
+The p-¹¹B reaction is the most frequently cited advanced-fuel candidate for direct fusion propulsion because its principal reaction branch yields three alpha particles and therefore leaves the released energy largely in charged form.[cite:1][cite:173] This characteristic makes it the cleanest theoretical match to an engine that seeks to use fusion products themselves as the primary propulsive energy carrier.[cite:1][cite:4]
+
+The cost of that elegance is reactor difficulty. Comparative studies indicate that p-¹¹B requires substantially harsher plasma conditions than D-³He and remains vulnerable to loss channels such as bremsstrahlung under realistic reactor conditions.[cite:2][cite:55] In consequence, p-¹¹B is best treated as the long-term ideal expression of direct fusion propulsion rather than the least risky initial implementation.[cite:1][cite:143]
+
+### 4.2 D-³He
+
+D-³He represents the strongest nearer-term alternative because its products are a high-energy proton and an alpha particle, both of which are directly useful for electromagnetic exhaust formation.[cite:55][cite:159][cite:167] This is the reason it underpins the modern Princeton Direct Fusion Drive concept.[cite:55][cite:167]
+
+D-³He is not perfectly aneutronic, since deuterium side reactions can still generate neutrons and tritium.[cite:7][cite:158] Even so, the neutron burden remains low enough that the concept still preserves the essential logic of direct charged-particle propulsion better than D-D or D-T.[cite:55][cite:7]
+
+### 4.3 D-D
+
+D-D fusion benefits from fuel availability and avoids dependence on scarce helium-3 resources.[cite:151] Its weakness is that the reaction branches produce a mixed set of charged particles and neutrons, so the fuel no longer supports a clean direct-fusion architecture with low shielding penalties.[cite:151]
+
+From a systems perspective, D-D is best understood as a compromise option. It preserves more of the direct-fusion concept than D-T, but substantially less than p-¹¹B or D-³He.[cite:151][cite:155] Its most plausible role is therefore as a developmental or fallback fuel rather than as the final form of a charged-product propulsion system.[cite:151][cite:163]
+
+### 4.4 D-T
+
+D-T remains the easiest major fusion fuel to ignite and therefore sets the reference point for mainstream fusion feasibility discussions.[cite:151] For direct fusion propulsion, however, its relevance is limited by the fact that most reaction energy is carried by a 14.1 MeV neutron rather than by charged particles accessible to magnetic guidance.[cite:151]
+
+A D-T spacecraft can still be fusion propelled, but it is not a pure direct fusion-product engine in any strict sense.[cite:151][cite:170] Instead, it becomes a hybrid system in which only a minority of the released energy contributes directly through charged particles, while the dominant neutron channel imposes substantial penalties in shielding, activation, heat handling, and structural lifetime.[cite:151]
+
+## 5. Comparative discussion
+
+| Fuel cycle | Main charged products | Neutron burden | Relative reactor difficulty | Fidelity to direct-fusion principle |
+|---|---|---|---|---|
+| p-¹¹B | Three alpha particles [cite:1] | Very low side channels [cite:1][cite:2] | Very high [cite:2][cite:55] | Highest [cite:1][cite:173] |
+| D-³He | Proton and alpha [cite:55][cite:159] | Low to moderate [cite:7][cite:158] | High [cite:55][cite:7] | Very high [cite:55][cite:167] |
+| D-D | Mixed charged products [cite:151] | Significant [cite:151] | Moderate to high [cite:151] | Intermediate [cite:151][cite:155] |
+| D-T | Alpha as minor charged channel [cite:151] | Very high [cite:151] | Lowest [cite:151] | Low [cite:151][cite:170] |
+
+This comparison shows that direct fusion propulsion should not be ranked by ignition difficulty alone.[cite:1][cite:151] The more decisive variable is the partition of released fusion energy into magnetically usable charged products versus neutral products that are unavailable for direct thrust.[cite:1][cite:170]
+
+On that basis, p-¹¹B is the cleanest theoretical embodiment of the concept and D-³He is the strongest advanced-fuel implementation path available in the current literature.[cite:1][cite:55][cite:167] D-D and D-T remain important for benchmarking and staged development, but each step toward higher neutron output makes the architecture less purely “direct fusion propulsion” and more a hybrid fusion-powered system.[cite:151][cite:170]
+
+## 6. Engineering constraints and publication-grade claims
+
+Any publication-grade treatment of direct fusion propulsion must distinguish clearly between physically grounded principles, extrapolated engineering expectations, and unresolved research questions.[cite:55][cite:171] The physically grounded principles are well established: charged fusion products can in principle be guided electromagnetically, magnetic nozzles can convert plasma enthalpy into directed exhaust, and fuel choice strongly determines how much fusion energy remains available in magnetically controllable form.[cite:1][cite:166][cite:170]
+
+The more uncertain layer concerns integrated performance. Open questions remain in confinement quality, steady or quasi-steady reactor sustainment, nozzle detachment, wall loading, radiation losses, and the total spacecraft mass penalty associated with magnets, shielding, radiators, and support systems.[cite:55][cite:170][cite:171] These uncertainties do not invalidate the concept, but they do require precise language and disciplined separation between first-principles argument and mission-level projection.[cite:55][cite:171]
+
+## 7. Conclusion
+
+Direct fusion propulsion is most rigorously defined as a propulsion architecture in which the dominant thrust channel is derived from the kinetic energy of fusion products while they remain in a magnetically manageable charged form.[cite:1][cite:166][cite:170] This definition distinguishes the concept both from generic fusion-electric propulsion and from fusion-driven thermal systems in which most reactor energy is first degraded into heat.[cite:1][cite:170]
+
+Within that definition, p-¹¹B remains the most conceptually elegant fuel cycle, D-³He is the strongest practical advanced-fuel alternative, D-D is an intermediate compromise, and D-T serves mainly as a hybrid benchmark rather than as a pure direct-fusion solution.[cite:1][cite:55][cite:151] The decisive scientific challenge is therefore not fusion alone, but the successful co-design of burning plasma, exhaust channel, and magnetic nozzle as one integrated propulsion system.[cite:166][cite:170][cite:171]
